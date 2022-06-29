@@ -12,7 +12,7 @@ class Main {
       System.out.print("Wprowadz dlugosc hasla:");
       ilosc = sc.nextInt();
     }
-    System.out.print("\n\rtwoje chaslo to: ");
+    System.out.println("\n\rtwoje haslo to:\n\r");
     for(int i=0;i<ilosc;i++){
       char charakter = (char)ThreadLocalRandom.current().nextInt(33, 126);
       System.out.print(charakter);
